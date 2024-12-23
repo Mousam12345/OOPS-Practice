@@ -1,0 +1,30 @@
+Class animal{
+ string type;
+ string breed;
+ string color;
+ int age;
+ public void getInfo{
+ System.out.println("name of this" + this.name);
+ System.out.println("breed of this" + this.breed);
+ System.out.println("color of this" + this.color);
+ System.out.println("age of this" + this.age);
+ }
+}
+public class OOPs{
+public static void main(String args[]){
+ Animal A1 = new animal();
+ A1.type = "dog";
+ A1.breed = "beagle";
+ A1.color= "brown";
+ A1.age =8;
+ A1.getInfo();
+
+Animal A2 = new animal();
+A2.type = elephent;
+A2.breed = cyclotic;
+A2.color= blue;
+A2.age = 60;
+A2.getInfo();
+
+}
+}
