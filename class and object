@@ -1,0 +1,26 @@
+// OOPS is object orined programming, which is paradigam to degin a program using class and object
+// object: obejct is a real world entity which has behaviour and properties of that object
+// class: class is a blueprint to creat the object by using the properties and behaviour of that object
+
+class pen{
+  string color;
+public void printColor{
+ System.out.println("color of this pen is"+ this.color);
+}
+}
+public class OOPS{
+public static void main(String args []){
+ Pen P1 = new pen();
+ P1.color = red;
+
+ Pen P2 = new pen();
+ P2.color = blue;
+
+ Pen P3= new pen();
+ P3.color = black;
+
+P1.printColor();
+P2.printColor();
+P3.printColor();
+}
+}
